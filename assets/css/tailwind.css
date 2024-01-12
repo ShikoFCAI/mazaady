@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    body{
+        @apply bg-theme-base;
+    }
+    .alley{
+        @apply px-4;
+        @apply lg:px-20;
+    }
+    .box{
+        @apply bg-white p-4 rounded-3xl;
+        @apply lg:p-6 lg:rounded-[21px];
+    }
+}
