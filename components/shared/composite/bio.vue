@@ -15,9 +15,9 @@ import Rating from '@/components/icon/rating.vue'
             </p>
         </div>
         <div class="flex gap-1.5 lg:gap-4 items-center justify-between">
-            <SharedAtomStat :icon="UserTick" stat="20" title="Followers" />
+            <SharedAtomStat :icon="UserTick" stat="5" title="Following" />
             <SharedAtomStat :icon="UserProfile" stat="20" title="Followers" />
-            <SharedAtomStat :icon="Rating" stat="20" title="Followers" extra="( 15 )" />
+            <SharedAtomStat :icon="Rating" stat="4.2" title="Rate" extra="( 15 )" />
         </div>
         <SharedAtomButton class="justify-center" text="Follow" />
     </div>

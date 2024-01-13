@@ -10,9 +10,9 @@ const isActive = ref(true)
                 <IconEye />
                 <IconShare />
                 <IconDoc />
-                <div @click="isActive = !isActive" class="rounded-full p-1 transition-all"
+                <div @click="isActive = !isActive" class="rounded-full p-1 transition-all lg:hidden"
                     :class="[isActive ? 'bg-[#FBE7EE]' : 'bg-[#F6F4F5]', isActive ? 'rotate-180' : '']">
-                    <IconArrowdown class="lg:hidden" />
+                    <IconArrowdown class="" />
                 </div>
             </div>
         </div>

@@ -12,8 +12,8 @@ defineProps({
         <component :is="icon" />
         <div class="flex flex-col">
             <div class="flex items-center gap-1">
-                <span class="font-bold text-sm">{{ stat }}</span>
-                <span class="text-[#828282] text-[10px]">{{ extra }}</span>
+                <span class="font-bold text-sm min-w-max">{{ stat }}</span>
+                <span class="text-[#828282] text-[10px] min-w-max">{{ extra }}</span>
             </div>
             <span class="text-theme-orange text-xs">{{ title }}</span>
         </div>

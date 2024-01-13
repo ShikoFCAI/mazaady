@@ -37,7 +37,7 @@ const tabs = ref([
             <div class="flex justify-between w-full">
                 <span class="text-xs lg:text-lg">{{ title }}</span>
                 <div class="rounded-full p-2">
-                    <IconHeart class="fill-white" :class="{ 'fill-theme-red': fav }" />
+                    <IconHeart class="" :class="[ fav ? 'fill-theme-red' : 'fill-white' ]" />
                 </div>
             </div>
             <p class="text-xs lg:text-lg text-[#828282] capitalize">
